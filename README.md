@@ -1,19 +1,4 @@
-<img width="1235" height="90" alt="Снимок экрана 2026-05-03 004055" src="https://github.com/user-attachments/assets/e1aca248-5624-460d-a224-05a29d2ea4df" />
-<img width="1960" height="589" alt="Снимок экрана 2026-05-03 002342" src="https://github.com/user-attachments/assets/842bab29-16ba-40e1-ba4c-db47f982e25b" />
-<img width="766" height="532" alt="Снимок экрана 2026-05-03 002110" src="https://github.com/user-attachments/assets/a7b0f94c-faca-4b33-af2e-bc160b23a23b" />
-<img width="970" height="815" alt="Снимок экрана 2026-05-02 204338" src="https://github.com/user-attachments/assets/075781d0-6a49-4dfb-837e-40ac76fe8af7" />
-<img width="2" height="2" alt="Снимок экрана 2026-05-02 204331" src="https://github.com/user-attachments/assets/0d38a58f-9b92-44c0-8c3d-e7ce85c0b905" />
-<img width="994" height="675" alt="Снимок экрана 2026-05-02 203012" src="https://github.com/user-attachments/assets/2aa52b46-8b82-49ea-bf64-20124a7d64eb" />
-<img width="988" height="839" alt="Снимок экрана 2026-05-02 202806" src="https://github.com/user-attachments/assets/ae4483c1-f68e-408d-82f0-6a66563eb416" />
-<img width="983" height="349" alt="Снимок экрана 2026-05-02 202732" src="https://github.com/user-attachments/assets/01565829-3b85-4ad4-b8a8-7596e8d73dba" />
-<img width="1259" height="260" alt="Снимок экрана 2026-05-02 202704" src="https://github.com/user-attachments/assets/20976aaa-809b-4519-a692-d380d342c2a5" />
-<img width="970" height="395" alt="Снимок экрана 2026-05-02 202423" src="https://github.com/user-attachments/assets/489769ed-731d-40e8-bdc3-956c411a2505" />
-<img width="984" height="397" alt="Снимок экрана 2026-05-02 202413" src="https://github.com/user-attachments/assets/3495eda9-931f-45da-bdf0-0bb6b4e3484f" />
-<img width="1366" height="342" alt="Снимок экрана 2026-05-02 191507" src="https://github.com/user-attachments/assets/22a5dd9e-6788-46c2-b535-0c0dd7d7fd4e" />
-<img width="978" height="781" alt="Снимок экрана 2026-05-02 190805" src="https://github.com/user-attachments/assets/f37de560-9626-40cd-acdd-88acc3650fc5" />
-<img width="982" height="433" alt="Снимок экрана 2026-05-02 190729" src="https://github.com/user-attachments/assets/d186b6b8-2c3c-4d46-b3f2-1476aceb181d" />
-<img width="970" height="265" alt="Снимок экрана 2026-05-02 190644" src="https://github.com/user-attachments/assets/a8918e91-e4f1-4b0b-b856-193e24935363" />
-Финальный проект по дисциплине Внедрение моделей машинного обучения.
+<img width="841" height="429" alt="Снимок экрана 2026-05-03 050745" src="https://github.com/user-attachments/assets/97d33de6-ff88-417d-814f-27ac7cd814ba" />Финальный проект по дисциплине Внедрение моделей машинного обучения.
 Целевая переменная: default.payment.next.month
 
 ## Структура проекта
@@ -82,8 +67,13 @@ python src/train.py
 python src/train_v2.py
 python src/api.py
 
+<img width="566" height="123" alt="Снимок экрана 2026-05-03 045753" src="https://github.com/user-attachments/assets/70cca961-f96a-4c17-ac81-6389d50f2131" />
+
+
 ## Автотесты
 Проект включает базовые автотесты через pytest для проверки корректности API. Тесты покрывают эндпоинты /health, /predict а так же отсутствующие поля и неверный model_version
+
+<img width="457" height="248" alt="Снимок экрана 2026-05-03 045805" src="https://github.com/user-attachments/assets/544be62b-402c-4b14-93dc-be59a4fd6d99" />
 
 ## Примеры API-запросов
 Проверка сервиса:
@@ -98,6 +88,12 @@ http://127.0.0.1:5000/health
  -X POST http://127.0.0.1:5000/predict ^
   -H "Content-Type: application/json" ^
   -d "{\"model_version\":\"v2\",\"LIMIT_BAL\":20000,\"SEX\":2,\"EDUCATION\":2,\"MARRIAGE\":1,\"AGE\":24,\"PAY_0\":2,\"PAY_2\":2,\"PAY_3\":-1,\"PAY_4\":-1,\"PAY_5\":-2,\"PAY_6\":-2,\"BILL_AMT1\":3913,\"BILL_AMT2\":3102,\"BILL_AMT3\":689,\"BILL_AMT4\":0,\"BILL_AMT5\":0,\"BILL_AMT6\":0,\"PAY_AMT1\":0,\"PAY_AMT2\":689,\"PAY_AMT3\":0,\"PAY_AMT4\":0,\"PAY_AMT5\":0,\"PAY_AMT6\":0}"
+
+<img width="984" height="397" alt="Снимок экрана 2026-05-02 202413" src="https://github.com/user-attachments/assets/a4a1505c-1da8-40fd-926b-be70ee2b25d4" />
+<img width="978" height="781" alt="Снимок экрана 2026-05-02 190805" src="https://github.com/user-attachments/assets/5dc87c8c-9735-496b-bddd-eccb4f6fe0a9" />
+<img width="982" height="433" alt="Снимок экрана 2026-05-02 190729" src="https://github.com/user-attachments/assets/3de17aea-441b-4928-9059-209a8eea9cbb" />
+<img width="970" height="265" alt="Снимок экрана 2026-05-02 190644" src="https://github.com/user-attachments/assets/849691fd-74b3-422e-b74c-5ffa51419d16" />
+<img width="970" height="395" alt="Снимок экрана 2026-05-02 202423" src="https://github.com/user-attachments/assets/2257f437-ab7c-4084-aed9-ce0b059095f8" />
 
 ## План A/B теста
 Cмотреть docs/AB_TEST_PLAN.md
@@ -140,6 +136,7 @@ WSGI-сервер запускает Python-приложение в проде. 
 ## Docker
 Сборка образа:
 docker build -t credit-default-api:latest .
+<img width="841" height="429" alt="Снимок экрана 2026-05-03 050745" src="https://github.com/user-attachments/assets/5fb7edc0-bc73-4360-8e90-bdabc673fca3" />
 
 Запуск контейнера:
 docker run --rm -p 5000:5000 credit-default-api:latest
@@ -150,21 +147,32 @@ https://hub.docker.com/r/tenjotsa/credit-default-api
 ## Docker Compose
 Запуск:
 docker compose up -d --build
+<img width="840" height="721" alt="Снимок экрана 2026-05-03 050812" src="https://github.com/user-attachments/assets/17bfce8a-dde3-4e84-9b1f-07fd4a9d0380" />
 
 Проверка:
 http://127.0.0.1:5000/health
+<img width="970" height="265" alt="Снимок экрана 2026-05-02 190644" src="https://github.com/user-attachments/assets/70fa4235-7399-4f72-8834-306e6a5ed460" />
 
 ML API напрямую: http://127.0.0.1:5000
 Через nginx: http://127.0.0.1:8080
 
 Проверка через nginx:
 http://127.0.0.1:8080/health
+<img width="845" height="145" alt="image" src="https://github.com/user-attachments/assets/db25737e-24e2-4987-a1eb-8fbf13a2d48a" />
 
 Посмотреть access-логи nginx:
 docker logs credit-default-nginx-compose
 
 Остановка:
 docker compose down
+
+
+<img width="766" height="532" alt="Снимок экрана 2026-05-03 002110" src="https://github.com/user-attachments/assets/a974a398-48f8-4561-885b-5c4f0c9cc93b" />
+<img width="970" height="815" alt="Снимок экрана 2026-05-02 204338" src="https://github.com/user-attachments/assets/2dad7f78-d8d0-4eee-bd5c-cbe092f21c8d" />
+<img width="994" height="675" alt="Снимок экрана 2026-05-02 203012" src="https://github.com/user-attachments/assets/b0803c98-4492-4132-afc1-02b41f91d798" />
+<img width="988" height="839" alt="Снимок экрана 2026-05-02 202806" src="https://github.com/user-attachments/assets/44f00c07-29f6-4379-a82f-f0aa51b88107" />
+<img width="983" height="349" alt="Снимок экрана 2026-05-02 202732" src="https://github.com/user-attachments/assets/7ff14194-8ec2-4d2d-93c4-81aa53977d67" />
+
 
 Выполнено:
 Обучена и сохранена модель model_v1.joblib
