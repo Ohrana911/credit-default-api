@@ -133,12 +133,17 @@ WSGI-сервер запускает Python-приложение в проде. 
 Обе метрики рассчитываются на основе выходов модели  вероятностей дефолта default_probability и не требуют дополнительных данных помимо тех, что уже есть в ответе API.
 
 ## Docker
+Скачивание образа:
+docker pull tenjotsa/credit-default-api:latest
+<img width="783" height="173" alt="Снимок экрана 2026-05-03 050205" src="https://github.com/user-attachments/assets/6ef5d07b-a68d-44d7-8c28-79b7622675bb" />
+
 Сборка образа:
 docker build -t credit-default-api:latest .
 <img width="841" height="429" alt="Снимок экрана 2026-05-03 050745" src="https://github.com/user-attachments/assets/5fb7edc0-bc73-4360-8e90-bdabc673fca3" />
 
 Запуск контейнера:
 docker run --rm -p 5000:5000 credit-default-api:latest
+<img width="797" height="191" alt="Снимок экрана 2026-05-03 050735" src="https://github.com/user-attachments/assets/560b3473-39ae-4ca4-9721-ed43d3301e9b" />
 
 Docker Hub:
 https://hub.docker.com/r/tenjotsa/credit-default-api
