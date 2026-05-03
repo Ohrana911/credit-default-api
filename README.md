@@ -88,17 +88,27 @@ http://127.0.0.1:5000/health<br>
   -H "Content-Type: application/json" ^<br>
   -d "<br>{\"model_version\":\"v2\",\"LIMIT_BAL\":20000,\"SEX\":2,\"EDUCATION\":2,\"MARRIAGE\":1,\"AGE\":24,\"PAY_0\":2,\"PAY_2\":2,\"PAY_3\":-1,\"PAY_4\":-1,\"PAY_5\":-2,\"PAY_6\":-2,\"BILL_AMT1\":3913,\"BILL_AMT2\":3102,\"BILL_AMT3\":689,\"BILL_AMT4\":0,\"BILL_AMT5\":0,\"BILL_AMT6\":0,\"PAY_AMT1\":0,\"PAY_AMT2\":689,\"PAY_AMT3\":0,\"PAY_AMT4\":0,\"PAY_AMT5\":0,\"PAY_AMT6\":0}"<br>
 
-### A/B
+## A/B
+### Демонстрация тестовой модели v2 и явного выбора версии
 <img width="984" height="397" alt="Снимок экрана 2026-05-02 202413" src="https://github.com/user-attachments/assets/a4a1505c-1da8-40fd-926b-be70ee2b25d4" />
-### Дефолтная модель. Ответ API без явной версии
-<img width="978" height="781" alt="Снимок экрана 2026-05-02 190805" src="https://github.com/user-attachments/assets/5dc87c8c-9735-496b-bddd-eccb4f6fe0a9" />
-### Базовая проверка, что сервис запущен и отвечает
-<img width="982" height="433" alt="Снимок экрана 2026-05-02 190729" src="https://github.com/user-attachments/assets/3de17aea-441b-4928-9059-209a8eea9cbb" />
-### Негативный тест валидации входных данных
-<img width="970" height="265" alt="Снимок экрана 2026-05-02 190644" src="https://github.com/user-attachments/assets/849691fd-74b3-422e-b74c-5ffa51419d16" />
+<br>
+
 ### Демонстрация контрольной модели v1 и явного выбора версии
 <img width="970" height="395" alt="Снимок экрана 2026-05-02 202423" src="https://github.com/user-attachments/assets/2257f437-ab7c-4084-aed9-ce0b059095f8" />
 <br>
+
+### Дефолтная модель. Ответ API без явной версии
+<img width="978" height="781" alt="Снимок экрана 2026-05-02 190805" src="https://github.com/user-attachments/assets/5dc87c8c-9735-496b-bddd-eccb4f6fe0a9" />
+<br>
+
+### Базовая проверка, что сервис запущен и отвечает
+<img width="982" height="433" alt="Снимок экрана 2026-05-02 190729" src="https://github.com/user-attachments/assets/3de17aea-441b-4928-9059-209a8eea9cbb" />
+<br>
+
+### Негативный тест валидации входных данных
+<img width="970" height="265" alt="Снимок экрана 2026-05-02 190644" src="https://github.com/user-attachments/assets/849691fd-74b3-422e-b74c-5ffa51419d16" />
+<br>
+
 ## План A/B теста
 Cмотреть docs/AB_TEST_PLAN.md<br>
 
