@@ -1,4 +1,3 @@
-<img width="841" height="429" alt="Снимок экрана 2026-05-03 050745" src="https://github.com/user-attachments/assets/97d33de6-ff88-417d-814f-27ac7cd814ba" />Финальный проект по дисциплине Внедрение моделей машинного обучения.
 Целевая переменная: default.payment.next.month
 
 ## Структура проекта
@@ -158,7 +157,9 @@ ML API напрямую: http://127.0.0.1:5000
 
 Проверка через nginx:
 http://127.0.0.1:8080/health
-<img width="845" height="145" alt="image" src="https://github.com/user-attachments/assets/db25737e-24e2-4987-a1eb-8fbf13a2d48a" />
+
+<img width="1960" height="589" alt="Снимок экрана 2026-05-03 002342" src="https://github.com/user-attachments/assets/9f04c06b-6d20-40b5-82c2-c3b406d084d2" />
+
 
 Посмотреть access-логи nginx:
 docker logs credit-default-nginx-compose
@@ -166,7 +167,7 @@ docker logs credit-default-nginx-compose
 Остановка:
 docker compose down
 
-
+## Скриншоты из Docker Desktop и Docker Hub
 <img width="766" height="532" alt="Снимок экрана 2026-05-03 002110" src="https://github.com/user-attachments/assets/a974a398-48f8-4561-885b-5c4f0c9cc93b" />
 <img width="970" height="815" alt="Снимок экрана 2026-05-02 204338" src="https://github.com/user-attachments/assets/2dad7f78-d8d0-4eee-bd5c-cbe092f21c8d" />
 <img width="994" height="675" alt="Снимок экрана 2026-05-02 203012" src="https://github.com/user-attachments/assets/b0803c98-4492-4132-afc1-02b41f91d798" />
