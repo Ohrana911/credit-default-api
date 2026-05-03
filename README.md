@@ -98,7 +98,7 @@ http://127.0.0.1:5000/health<br>
 <br>
 
 ### Дефолтная модель. Ответ API без явной версии
-<img width="978" height="781" alt="Снимок экрана 2026-05-02 190805" src="https://github.com/user-attachments/assets/5dc87c8c-9735-496b-bddd-eccb4f6fe0a9" />
+<img width="970" height="265" alt="Снимок экрана 2026-05-02 190644" src="https://github.com/user-attachments/assets/849691fd-74b3-422e-b74c-5ffa51419d16" />
 <br>
 
 ### Базовая проверка, что сервис запущен и отвечает
@@ -106,7 +106,7 @@ http://127.0.0.1:5000/health<br>
 <br>
 
 ### Негативный тест валидации входных данных
-<img width="970" height="265" alt="Снимок экрана 2026-05-02 190644" src="https://github.com/user-attachments/assets/849691fd-74b3-422e-b74c-5ffa51419d16" />
+<img width="978" height="781" alt="Снимок экрана 2026-05-02 190805" src="https://github.com/user-attachments/assets/5dc87c8c-9735-496b-bddd-eccb4f6fe0a9" />
 <br>
 
 ## План A/B теста
