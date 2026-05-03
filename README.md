@@ -97,11 +97,11 @@ http://127.0.0.1:5000/health<br>
 <img width="970" height="395" alt="Снимок экрана 2026-05-02 202423" src="https://github.com/user-attachments/assets/2257f437-ab7c-4084-aed9-ce0b059095f8" />
 <br>
 
-### Дефолтная модель. Ответ API без явной версии
+### Базовая проверка, что сервис запущен и отвечает
 <img width="970" height="265" alt="Снимок экрана 2026-05-02 190644" src="https://github.com/user-attachments/assets/849691fd-74b3-422e-b74c-5ffa51419d16" />
 <br>
 
-### Базовая проверка, что сервис запущен и отвечает
+### Дефолтная модель. Ответ API без явной версии по умолчанию v1
 <img width="982" height="433" alt="Снимок экрана 2026-05-02 190729" src="https://github.com/user-attachments/assets/3de17aea-441b-4928-9059-209a8eea9cbb" />
 <br>
 
